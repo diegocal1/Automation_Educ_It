@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite de Registro de usuarios">
+  <test thread-count="5" name="Registro invalido">
+    <classes>
+      <class name="clase3.Tres_Uno">
+		<methods>
+          <include name="invalidRegistrationTest"/>
+      	</methods>
+	  </class>
+    </classes>
+  </test> 
+  <test thread-count="5" name="Registro valido">
+    <classes>
+      <class name="clase3.Tres_Uno">
+		<methods>
+          <include name="registrationTest"/>
+
+      </methods>
+	  </class>
+    </classes>
+  </test> 
+ <!-- Test --><!-- Test -->
+</suite> <!-- Suite -->
